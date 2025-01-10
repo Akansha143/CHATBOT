@@ -1,7 +1,7 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+917083910799'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>8600765857</label></div> </a> <a href='mailto:patilvinu777@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/918600765857'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/vinayak_09'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/vinayak_patil_09'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/vinayak-patil-793bb5206/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Vinayak Resume.pdf</label></div><a href='assets/Vinayak Patil&#39;s Resume.pdf' download='Vinayak_Patil_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var addressString = "<div class='mapview'><iframe src='https://g.co/kgs/n2UegFV' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Nagpur, Maharashtra, INDIA 440027</address>";
+var contactString = "<div class='social'> <a target='_blank' href='tel:+917083910799'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>7083910799</label></div> </a> <a href='mailto:akanshamadavi01@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Akansha143'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/917083910799'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/Akansha_1430'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/akansha_madavi_'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://https://www.linkedin.com/in/akansha-madavi/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
+var resumeString = "<img src='https://github.com/Akansha143/CHATBOT/blob/main/images/resumeThumbnail%20(2).png?raw=true' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='https://github.com/Akansha143/CHATBOT/blob/main/images/pdf.png?raw=true'><label>Akansha_RESUME.pdf</label></div><a href='https://raw.githubusercontent.com/Akansha143/CHATBOT/1e7cc3d54d19b31ad7394e38f54aad6ebccb2fad/assests/Akansha_RESUME.pdf' download='Akansha_RESUME.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14889.424407599441!2d79.0830376432855!3d21.098364558467214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf40b493d843%3A0xe5437b49e7ee397c!2sOmkar%20Nagar%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1735215837113!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>35 Onkar Nagar<br>Nagpur, Maharashtra, INDIA 440027</address>";
 function startFunction() {
     setLastSeen();
     waitAndResponce("intro");
@@ -82,11 +82,11 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>HTML<br>CSS<br>Javascript<br>C++<br>C<br>Python<br>Java<br>PHP<br>ML<br>AI<br>Linux<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science and Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>HTML<br>CSS<br>Javascript<br>C++<br>C<br>Python<br>Java<br>PHP<br>React.js<br>MySQL<br>Latex<br>Linux<br></span><br><br>I've experiance with following frameworks :<span class='bold'><br>AI<br>ML<br>DSA<br>Chip Design</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
-            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from IIT Goa<br>Passing Year : 202<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
+            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from IIT Goa<br>Passing Year : 2025<br><br>I have completed my Higher Secondary school from Prerna College,Nagpur<br>Passing Year:2020<br>Result:75.06%<br><br>I have completed my High school from local school known as TTHS<br>Passing Year:2018<br>Result:93%<br>");
             break;
 
         case "address":
@@ -96,13 +96,13 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/vinayak_patil_09/'><span class='bold'>Vinayak Patil</a> with ❤️</span>");
+            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/akansha_madavi/'><span class='bold'>Akansha Madavi</a> with ❤️</span>");
             break;
         case "contact":
             sendTextMessage(contactString);
             break;
         case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
+            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Akansha143'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
             break;
         case "new":
             sendTextMessage(addressString);
